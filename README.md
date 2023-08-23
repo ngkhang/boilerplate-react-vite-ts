@@ -1,4 +1,4 @@
-# 👋Boilerplate React - Vite - TypeScript
+# 👋Boilerplate Vite - React - TypeScript
 
 <p>
   <a href="emptylink docs" target="_blank">
@@ -9,7 +9,7 @@
 <details>
 <summary><strong>Table of Contents:</strong></summary>
 
-- [👋Boilerplate React - Vite - TypeScript](#boilerplate-react---vite---typescript)
+- [👋Boilerplate Vite - React - TypeScript](#boilerplate-vite---react---typescript)
   - [Note from Vite](#note-from-vite)
     - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
   - [About this project](#about-this-project)
@@ -65,7 +65,7 @@ If you are developing a production application, we recommend updating the config
 
 ## About this project
 
-- This is a boilerplate for React projects using Vite, TypeScript, React Router DOM, Tailwind CSS, ESLint, and Airbnb Guide Style.
+- This is a boilerplate for React project using Vite, TypeScript, React Router DOM, Tailwind CSS, ESLint, and Airbnb Guide Style.
 - If needed, you can install other frameworks or libraries.
 
 ---
@@ -121,7 +121,7 @@ If you are developing a production application, we recommend updating the config
 2. Change to the project directory
 
    ``` powershell
-   cd boilerplate-react-vite-ts
+   cd boilerplate-vite-react-ts
    ```
 
 3. Install the dependencies:
@@ -195,11 +195,8 @@ Preview project before build production.
 │   ├── assets
 │   ├── components/
 │   │   ├── generic/
-│   │   │   ├── BlankComponent
+│   │   │   ├── Header
 │   │   │   └── ...
-│   │   ├── Header
-│   │   ├── Footer
-│   │   ├── ...
 │   │   └── layout/
 │   │       ├── defaultLayout.tsx
 │   │       └── index.tsx

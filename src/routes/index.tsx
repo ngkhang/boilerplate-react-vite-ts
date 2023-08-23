@@ -1,10 +1,10 @@
-// import Page_Name from "";
-import BlankPage from '~/pages/BlankPage';
+// import PAGE_NAME from "";
 
 const PublicRoutes = [
   {
+    id: 1,
     path: '/',
-    component: BlankPage,
+    // component: PAGE_NAME,
   },
 ];
 

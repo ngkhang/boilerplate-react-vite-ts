@@ -1,5 +1,4 @@
 // Import icons
-
 interface KeyofVal {
   [key: PropertyKey]: (className?: string) => JSX.Element;
 }
