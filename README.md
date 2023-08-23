@@ -182,11 +182,62 @@ Preview project before build production.
 
 ## Folder Structure
 
-The code for the project is organized as follows:
+<details>
+<summary>The code for the project is organized as follows:</summary>
 
 ``` markdown
-
+.
+├── .vscode
+├── node-modules
+├── public
+├── src/
+│   ├── apis
+│   ├── assets
+│   ├── components/
+│   │   ├── generic/
+│   │   │   ├── BlankComponent
+│   │   │   └── ...
+│   │   ├── Header
+│   │   ├── Footer
+│   │   ├── ...
+│   │   └── layout/
+│   │       ├── defaultLayout.tsx
+│   │       └── index.tsx
+│   ├── hooks
+│   ├── pages/
+│   │   └── PageNotPound
+│   ├── routes/
+│   │   └── index.tsx
+│   ├── types
+│   ├── utils/
+│   │   ├── constants/
+│   │   │   ├── dbPage.json
+│   │   │   └── index.tsx
+│   │   ├── functions/
+│   │   │   └── fetchAPI.tsx
+│   │   └── helpers/
+│   │       └── icons.tsx
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .editorconfig
+├── .env
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.js
 ```
+
+</details>
 
 ---
 
