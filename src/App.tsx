@@ -1,6 +1,8 @@
+import './App.css';
+
 function App() {
   return (
-    <div>App</div>
+    <h1 className="text-center font-medium uppercase">Project</h1>
   );
 }
 

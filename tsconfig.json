@@ -26,7 +26,7 @@
       "~/*": [
         "./src/*"
       ],
-      // 👆 If needed, add a new path similar above and config into vite.config.ts
+      // 👇Add new path similar above and config into vite.config.ts, if needed,
     }
   },
   "include": [

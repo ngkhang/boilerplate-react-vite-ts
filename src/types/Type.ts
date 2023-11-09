@@ -1,3 +1,4 @@
+// Delarce interface
 interface Types {
 
 }
